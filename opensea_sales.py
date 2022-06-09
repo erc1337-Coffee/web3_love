@@ -18,18 +18,18 @@ class ETH_Node(object):
 	def __init__(self):
 		super(ETH_Node, self).__init__()
 		# If you use a custom HTTP provider:
-		# self.w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+		#self.w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
 		# 
 		# Else if you want to use Infura as provider for mainnet:
-		# self.w3 = Web3(HTTPProvider("https://ropsten.infura.io/v3/YOUR_PROJECT_ID"))
+		self.w3 = Web3(HTTPProvider("https://mainnet.infura.io/v3/YOUR_PROJECT_ID"))
 		#
 		# Or Infura on Rinkeby (testnet):
-		# self.w3 = Web3(HTTPProvider("https://rinkeby.infura.io/v3/YOUR_PROJECT_ID"))
+		#self.w3 = Web3(HTTPProvider("https://rinkeby.infura.io/v3/YOUR_PROJECT_ID"))
 		#
 		# Link to some documentation about providers: https://web3py.readthedocs.io/en/stable/overview.html#providers
 		#
-		# I use a local IPC Provider:
-		self.w3 = Web3(Web3.IPCProvider('/tmp/jsonrpc.ipc'))
+		# Or use a local IPC Provider and provide the path to the ipc file:
+		#self.w3 = Web3(Web3.IPCProvider('/tmp/jsonrpc.ipc'))
 	def handle_event(self,event):
 		try:
 			tx_data = dict(event)
