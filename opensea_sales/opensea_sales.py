@@ -2,7 +2,7 @@
 # 
 # erc1337 Coffee
 # 
-# Made with love for Dman#3192 on ApeReunion's discord :)
+# Made with love for Dman on ApeReunion's discord :)
 import asyncio
 from web3 import Web3, IPCProvider, HTTPProvider
 import json
