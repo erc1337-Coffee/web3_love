@@ -4,6 +4,6 @@
 
 | Script        | Description           | File(s)  |
 | ------------- |-------------| -----|
-| OpenSea Sales | Example on how to monitor latest sales on OpenSea using web.py. ERC1150 are not printed. | [opensea_sales.py](opensea_sales/opensea_sales.py) |
-| Discord.py Bot | Example on how to create a basic discord bot with discord.py. | [discord_bot.py](discordpy_bot/discord_bot.py) |
-
+| OpenSea Sales | Example on how to monitor latest sales on OpenSea using web.py. ERC1150 are not printed. | [opensea_sales](opensea_sales/) |
+| Discord.py Bot | Example on how to create a basic discord bot with discord.py. | [discordpy_bot](discordpy_bot/) |
+| Discord.js Bot | Same but in JavaScript with discord.js. | [discordjs_bot](discordjs_bot/) |
