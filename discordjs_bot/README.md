@@ -13,19 +13,19 @@
 
 Needed permissions on the discord dev dashboard:
 
-![Screenshot](bot_scope.png)
+![Screenshot](images/bot_scope.png)
 
 
 Help command
 
-![Screenshot](help_1.png)
-![Screenshot](help_2.png)
+![Screenshot](images/help_1.png)
+![Screenshot](images/help_2.png)
 
 
 Echo command
 
-![Screenshot](echo_1.png)
+![Screenshot](images/echo_1.png)
 
-![Screenshot](echo_2.png)
+![Screenshot](images/echo_2.png)
 
-![Screenshot](echo_3.png)
+![Screenshot](images/echo_3.png)
